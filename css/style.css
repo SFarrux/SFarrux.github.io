@@ -1,0 +1,351 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+    color: #2c465a;
+    min-width: 320px;
+    
+}
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: #60606e;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+p, span {
+    font-family: 'open sans';
+    font-size: 14px;
+    color: #60606e;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    
+}
+/* HEADER */
+header{
+    background: url(../img/main-bg.jpg) no-repeat center center/ cover;
+    padding-bottom: 165px;
+    padding-top: 43px;
+    height: 500px;
+    
+}
+.temp{
+    
+}
+header .logo a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #60606e;
+}
+header .menu i{
+    font-size: 20px;
+    color: #60606e;
+}
+.header__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 207px;
+    
+}
+.header__title h1{
+    font-size: 36px;
+}
+.header__title h2{
+    font-size: 14px;
+}
+.header__top{
+    margin-top: 70px;
+    
+}
+
+.header__top_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.header__top h2{
+    margin-bottom: 20px; 
+}
+.header__top .m_1{
+    background: url(../img/shape.png) 0 15px no-repeat;
+}
+.header__top .m_1:hover{
+    background: url(../img/shape.png) 0 30px no-repeat;
+    transition: 0.5s;
+}
+.header__top .m_2{
+    background: url(../img/shape.png) 0 15px no-repeat;
+}
+.header__top .m_2:hover{
+    background: url(../img/shape.png) 0 30px no-repeat;
+    transition: 0.5s;
+}
+.header__top .m_3{
+    background: url(../img/shape.png) 0 15px no-repeat;
+}
+.header__top .m_3:hover{
+    background: url(../img/shape.png) 0 30px no-repeat;
+    transition: 0.5s;
+}
+
+.top {
+    display: none;
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 10;
+    
+}
+.top i{
+    font-size: 50px;
+    color: #7beec7;
+}
+.top i:hover{
+    color: darkred;
+}
+.hide{
+    display: none;
+}
+.blur{
+    filter: blur(5px);
+}
+.active{
+    font-size: 45px;
+}
+
+/* SECTION WE DO */
+
+.we-do__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.we-do__title h2{
+    background: url(../img/shape.png) 0px 15px no-repeat;
+}
+.we-do__title h2:hover{
+    background: url(../img/shape.png)  no-repeat 0px 30px ;
+    transition: 0.5s;
+}
+
+.item_top p{
+    text-align: left;
+    margin-bottom: 48px;
+}
+.item_left a,
+.item_right a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+.item_left a span,
+.item_right a span{
+    margin-left: 9px;
+}
+.item_left{
+    margin-right: 121px ;
+}
+.we-do__main i{
+    color: #7beec7;
+}
+/* we do bottom */
+
+.we-do__bottom .img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    
+}
+.we-do__bottom .img {
+    background: url(../img/shape.png) 100px 40px no-repeat;
+}
+.we-do__bottom .img:hover {
+    background: url(../img/shape.png) 100px 70px no-repeat ;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.we-do__bottom h3{
+   font-size: 18px;
+   margin-bottom: 21px;
+}
+/* prices */
+
+
+.prices__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 153px;
+    margin-bottom: 100px;
+}
+.prices__title a h2{
+    
+    background: url(../img/shape.png) 0 15px  no-repeat;
+}
+.prices__title a h2:hover{
+    transition: 0.3s;
+    background: url(../img/shape.png) 0 32px no-repeat;
+}
+
+.price__list__item{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-right: 117px;
+    margin-bottom: 147px;
+    width: auto;
+    border-top: #7beec7 solid 5px;
+    
+}
+
+.price__list__item:hover{
+    box-shadow: 0 0 20px;
+    transition: 0.3s;
+}
+.price__list__item h3{
+    margin-bottom: 15px;
+}
+.price__list__item .price__month{
+    padding: 10px 20px;
+    background: #7beec7;
+    color: white;    
+}
+.price__list__item ul{
+    margin-top: 50px;
+    margin-bottom: 51px;
+}
+.price__list__item ul li{
+    margin-bottom: 24px;
+    color: #60606e;
+}
+.price__list__item i{
+    color: #7beec7;
+    margin-right: 10px;
+}
+.price__list__item .price__start{
+    padding: 20px 20px;
+    background: #7beec7;
+    color: white;   
+}
+/* subscribe */
+.subscribe{
+    background: #7beec7;
+}
+.subscribe_left{
+    margin-top: 50px;
+}
+.subscribe_left h3{
+    color: white;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+.subscribe_left a{
+    padding: 20px 30px;
+    background: white;
+}
+.subscribe_left a span{
+    color: #7beec7;
+}
+.subscribe_right{
+    background: white;
+    margin: 50px auto;
+    padding: 26px 21px 26px 17px;
+    
+}
+.subscribe_right h3{
+    margin-bottom: 18px;
+}
+.subscribe_right p{
+    font-size: 16px;
+    color: #999999;
+    margin-bottom: 29px;
+}
+.subscribe_right .input{
+    
+    border: #e5e5e5 solid 1px;
+}
+.subscribe_right input{
+    padding: 19px 21px 21px;
+    padding-right: 284px;
+    border: none;
+    
+}
+
+.subscribe_right button{
+    
+    border: none;
+    right: 20px;
+    background: #7beec7;
+    color: white;
+    padding: 20px 49px;
+}
+
+/* footer */
+.footer_menu{
+    
+    margin: 50px auto;
+}
+
+.footer_menu .footer__links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_menu .footer__links li{
+    color: #9a9a9a;
+}
+.footer__icons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer__icons span{
+    color: #9a9a9a;
+    margin-bottom: 30px;
+}
+.footer__icons .icons i{
+    font-size: 24px;
+    color: #9a9a9a;
+    margin-left: 18px;
+}
